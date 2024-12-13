@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/vehicles'; // Update with your backend URL
+const API_URL = 'https://vehicle-management-system-16ix.onrender.com/api/vehicles'; // Update with your backend URL
 
 export const getVehicles = async () => axios.get(API_URL);
 
